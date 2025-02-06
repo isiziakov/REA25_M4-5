@@ -22,9 +22,12 @@
 | `catboost_model.pkl` | Модель в формате pkl | Обученная модель catboost для мульти-регрессии сериализованная в формат pkl
 | `metrics.txt` | Текстовый файл | Метрики валидации модели catboost_model.pkl на валидационном датасете |
 | `catboost_metrics.txt` | Текстовый файл | Метрики валидации модели model.pkl на валидационном датасете |
-| `C9_M2.ipynb` | jupyter notebook | Jupyter notebook с кодом для предобработки датасета |
-| `C9_M2.html` | html страница | Jupyter notebook с кодом для предобработки датасета в формате html |
-| `C9_M3.ipynb` | jupyter notebook | Jupyter notebook с кодом для обучения модели yolov11 распознавать показания аналогового прибора |
-| `C9_M3.html` | html страница | Jupyter notebook с кодом для обучения модели yolov11 распознавать показания аналогового прибора в формате html |
-| `README.md` | Markdown | Описание проекта и инструкции по использованию |
-| `LICENSE` | Text | Лицензия, под которой распространяется проект |
+| `Dockerfile` | Dockerfile | Dockerfile для сборки изображения пайплайна для обучения catboost регрессора |
+| `min-max.csv` | csv файл | Таблица с min и max для нормализации входных данных |
+| `pipeline.py` | Python скрипт | Скрипт для обучения catboost регрессора |
+| `requirements.txt` | Текстовый файл | Текстовый файл со списком библиотек для DockerFile |
+| `C9_M4.ipynb` | jupyter notebook | Jupyter notebook с кодом для обработки датасета и сокращению его объема |
+| `C9_M4.html` | html страница | Jupyter notebook с кодом для обработки датасета и сокращению его объема |
+| `C9_M5.ipynb` | jupyter notebook | Jupyter notebook с кодом для обучения модели hgb для мульти-регрессии табличных данных |
+| `C9_M5.html` | html страница | Jupyter notebook с кодом для обучения модели hgb для мульти-регрессии табличных данных |
+| `README.md` | Markdown | Описание проекта |
